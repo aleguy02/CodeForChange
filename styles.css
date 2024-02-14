@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(33, 33, 33); */
+    
+}
+
+header { 
+    display: flex; /* Makes the header a flex container */
+    text-align: left;
+    background-color: rgb(27, 27, 68); 
+    color: #fff; 
+    padding: 5px 20px; 
+}
+
+header h1{ 
+    display: flex; /* Makes the header a flex container */
+    text-align: left;
+    background-color: rgb(27, 27, 68); 
+    color: #fff; 
+    padding: 5px 20px; 
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+}
+
+header h1, #item-name {
+    margin: 0; /* Removes default margin from h1 and any margin from the input */
+    /*padding: 0.5em; /* Adds a little padding inside h1 and input for visual spacing */
+}
+
+#item-name {
+    width: 20x; /* Adjusts the width of the search bar */
+    padding: 5px; /* Adjusts the internal spacing of the search bar */
+    font-size: 14px; /* Adjusts the size of the text inside the search bar */
+    /* Additional styling for aesthetics */
+    border: 1px solid #ccc; /* Optional: Changes the border */
+    border-radius: 6px; /* Optional: Rounds the corners of the search bar */
+    margin-left: 20px; /* Adds some space between the h1 and the input field */
+}
+
+#saved {
+    margin-left: auto; /* Pushes the link to the right */
+    margin-right: 10x; /* Ensures the link doesn't touch the very right edge */
+    margin-top: 10px;
+    text-decoration: none; /* Removes underline from the link */
+    color: #fff; /* Inherits the text color from the parent element */
+    cursor: pointer;
+}
+
+#sign-in {
+    margin-left: auto; /* Pushes the link to the right */
+    margin-right: 20px; /* Ensures the link doesn't touch the very right edge */
+    margin-top: 10px;
+    text-decoration: none; /* Removes underline from the link */
+    color: #fff; /* Inherits the text color from the parent element */
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Adjust the padding for all columns inside a row */
+.row {
+    padding-right: 20px; /* Reduce right padding */
+    padding-left: 20px; /* Reduce left padding */
+}
+
+img {
+    width: 25%;
+    height: auto
+}
+
+.bottomBanner{
+    display: flex; /* Makes the header a flex container */
+    text-align: left;
+    background-color: rgb(27, 27, 68); 
+    color: #fff; 
+    padding: 5px 20px; 
+    height: 45px;
+}
+
+#listing-div {
+    height: 400px;
+    width: 200px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
